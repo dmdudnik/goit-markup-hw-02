@@ -1,0 +1,56 @@
+/* Основной текст:  #757575;*/
+/*  Вторичный текст: #212121; */
+/* Белый: #FFFFFF; */
+/*  Акцент: #2196F3; */
+/* Фон шапки: #FFFFFF */
+/* Первичный фон: #E5E5E5; */
+
+:root {
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+}
+
+body {
+  background-color: #e5e5e5;
+  color: #757575;
+}
+
+/* Logo */
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  color: black;
+}
+.logo-chapter {
+  color: var(--accent-color);
+}
+
+/* List-nav */
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+.hero-title {
+  color: white;
+}
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* Features */
+.features .title {
+  color: var(--title-text-color);
+}
+
+.list {
+  list-style: none;
+  text-decoration-style: none;
+}
