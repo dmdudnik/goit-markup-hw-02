@@ -6,39 +6,89 @@
 /* Первичный фон: #E5E5E5; */
 
 :root {
+  --prime-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
+  font-style: normal;
   background-color: #e5e5e5;
-  color: #757575;
+  color: var(--prime-text-color);
 }
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* HEADER */
 
 /* Logo */
 .logo {
-  font-family: 'Raleway', sans-serif;
+  font-family: Raleway;
   font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
   color: black;
 }
 .logo-chapter {
   color: var(--accent-color);
 }
 
-/* List-nav */
-
-.site-nav .link {
+/* Navigation */
+.navigation-list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
   color: var(--title-text-color);
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.adress-list-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: var(--prime-text-color);
+}
+
+.adress-list-link:hover,
+.adress-list-link:focus,
+.navigation-list-link:hover,
+.navigation-list-link:focus {
   color: var(--accent-color);
 }
 
+/* MAIN */
+
 /* Hero */
 .hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.364;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: white;
+}
+
+.hero-btn {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
   color: white;
 }
 
@@ -49,9 +99,4 @@ body {
 /* Features */
 .features .title {
   color: var(--title-text-color);
-}
-
-.list {
-  list-style: none;
-  text-decoration-style: none;
 }
