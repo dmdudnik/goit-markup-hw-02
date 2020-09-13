@@ -11,13 +11,17 @@
   --mine-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
+  --mine-background: #e5e5e5;
+  --secondary-background: #2f303a;
 }
+
+/* ======== INDEX.HTML ======== */
 
 body {
   font-family: var(--mine-font);
   font-style: normal;
   color: var(--mine-text-color);
-  background-color: #e5e5e5;
+  background-color: var(--mine-background);
 }
 
 .list {
@@ -71,6 +75,10 @@ body {
 /* ======== END HEADER ======== */
 
 /* ======== HERO ======== */
+.hero {
+  background-color: var(--secondary-background);
+}
+
 /* HERO-Title */
 .hero-title {
   font-weight: 900;
@@ -83,17 +91,16 @@ body {
 }
 
 /* HERO-Button */
-.hero-btn {
+.modal-btn {
   font-family: var(--mine-font);
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
-  display: flex;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: white;
+  background-color: var(--accent-color);
 }
 /* ======== END HERO ======== */
 
@@ -146,6 +153,10 @@ body {
 /* ======== END TEAM ======== */
 
 /* ======== FOOTER ======== */
+.footer {
+  background-color: var(--secondary-background);
+}
+
 .footer-logo {
   font-family: var(--secondary-font);
   font-weight: 700;
@@ -179,3 +190,4 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 /* ======== END FOOTER ======== */
+/* ======== END INDEX.HTML ======== */
