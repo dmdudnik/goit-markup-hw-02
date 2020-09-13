@@ -57,8 +57,10 @@ body {
 }
 
 /* HEADER-Adress */
-.adress-list-link {
+.adress {
   font-style: normal;
+}
+.adress-list-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.143;
@@ -153,11 +155,11 @@ body {
 /* ======== END TEAM ======== */
 
 /* ======== FOOTER ======== */
-.footer {
+.contact {
   background-color: var(--secondary-background);
 }
 
-.footer-logo {
+.contact-logo {
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
@@ -166,13 +168,11 @@ body {
   color: white;
 }
 
-.footer-logo-chapter {
+.contact-logo-chapter {
   color: var(--accent-color);
 }
 
-.footer-list-maplink {
-  font-family: var(--mine-font);
-  font-style: normal;
+.contact-list-maplink {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
@@ -180,9 +180,7 @@ body {
   color: white;
 }
 
-.footer-list-link {
-  font-family: var(--mine-font);
-  font-style: normal;
+.contact-list-link {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
