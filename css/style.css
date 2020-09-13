@@ -139,3 +139,28 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 }
+
+/* FOOTER */
+.footer-logo {
+  color: white;
+}
+
+.footer-list-maplink {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: white;
+}
+
+.footer-list-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
