@@ -1,5 +1,5 @@
 /* Основной текст:  #757575;*/
-/*  Вторичный текст: #212121; */
+/* Вторичный текст: #212121; */
 /* Белый: #FFFFFF; */
 /*  Акцент: #2196F3; */
 /* Фон шапки: #FFFFFF */
@@ -14,8 +14,8 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
-  background-color: #e5e5e5;
   color: var(--prime-text-color);
+  background-color: #e5e5e5;
 }
 
 .list {
@@ -28,7 +28,7 @@ body {
 
 /* HEADER */
 
-/* Logo */
+/* HEADER-Logo */
 .logo {
   font-family: Raleway;
   font-weight: 700;
@@ -41,7 +41,7 @@ body {
   color: var(--accent-color);
 }
 
-/* Navigation */
+/* HEADER-Navigation */
 .navigation-list-link {
   font-weight: 500;
   font-size: 14px;
@@ -49,6 +49,8 @@ body {
   letter-spacing: 0.02em;
   color: var(--title-text-color);
 }
+
+/* HEADER-Adress */
 
 .adress-list-link {
   font-style: normal;
@@ -66,9 +68,9 @@ body {
   color: var(--accent-color);
 }
 
-/* MAIN */
+/* HERO */
 
-/* Hero */
+/* HERO-Title */
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -79,6 +81,7 @@ body {
   color: white;
 }
 
+/* HERO-Button */
 .hero-btn {
   font-family: Roboto;
   font-style: normal;
@@ -92,11 +95,47 @@ body {
   color: white;
 }
 
-.section-title {
+/* FEATURES */
+.sub-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--title-text-color);
 }
 
-/* Features */
-.features .title {
+.features-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+}
+
+/* ABOUT-US */
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  letter-spacing: 0.03em;
   color: var(--title-text-color);
+}
+
+/* TEAM */
+.team-sub-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.188;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+.team-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.188;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
