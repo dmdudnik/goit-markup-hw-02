@@ -6,15 +6,17 @@
 /* Первичный фон: #E5E5E5; */
 
 :root {
-  --prime-text-color: #757575;
+  --mine-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  --mine-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--mine-font);
   font-style: normal;
-  color: var(--prime-text-color);
+  color: var(--mine-text-color);
   background-color: #e5e5e5;
 }
 
@@ -26,17 +28,17 @@ body {
   text-decoration: none;
 }
 
-/* HEADER */
-
+/* ======== HEADER ======== */
 /* HEADER-Logo */
 .logo {
-  font-family: Raleway;
+  font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
   color: black;
 }
+
 .logo-chapter {
   color: var(--accent-color);
 }
@@ -51,14 +53,13 @@ body {
 }
 
 /* HEADER-Adress */
-
 .adress-list-link {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
-  color: var(--prime-text-color);
+  color: var(--mine-text-color);
 }
 
 .adress-list-link:hover,
@@ -67,9 +68,9 @@ body {
 .navigation-list-link:focus {
   color: var(--accent-color);
 }
+/* ======== END HEADER ======== */
 
-/* HERO */
-
+/* ======== HERO ======== */
 /* HERO-Title */
 .hero-title {
   font-weight: 900;
@@ -83,7 +84,7 @@ body {
 
 /* HERO-Button */
 .hero-btn {
-  font-family: Roboto;
+  font-family: var(--mine-font);
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -94,8 +95,9 @@ body {
   letter-spacing: 0.06em;
   color: white;
 }
+/* ======== END HERO ======== */
 
-/* FEATURES */
+/* ======== FEATURES ======== */
 .sub-title {
   font-weight: 700;
   font-size: 14px;
@@ -111,8 +113,9 @@ body {
   line-height: 1.714;
   letter-spacing: 0.03em;
 }
+/* ======== END FEATURES ======== */
 
-/* ABOUT-US */
+/* ======== ABOUT-US ======== */
 .title {
   font-weight: 700;
   font-size: 36px;
@@ -121,8 +124,9 @@ body {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
+/* ======== END ABOUT-US ======== */
 
-/* TEAM */
+/* ======== TEAM ======== */
 .team-sub-title {
   font-weight: 500;
   font-size: 16px;
@@ -139,14 +143,24 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 }
+/* ======== END TEAM ======== */
 
-/* FOOTER */
+/* ======== FOOTER ======== */
 .footer-logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
   color: white;
 }
 
+.footer-logo-chapter {
+  color: var(--accent-color);
+}
+
 .footer-list-maplink {
-  font-family: Roboto;
+  font-family: var(--mine-font);
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -156,7 +170,7 @@ body {
 }
 
 .footer-list-link {
-  font-family: Roboto;
+  font-family: var(--mine-font);
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -164,3 +178,4 @@ body {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
+/* ======== END FOOTER ======== */
