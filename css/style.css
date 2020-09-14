@@ -203,3 +203,23 @@ body {
   color: #ffffff;
   background-color: var(--accent-color);
 }
+
+/* ======== END FILTER ======== */
+/* ======== PORTFOLIO ======== */
+
+.portfolio-subtitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+
+.portfolio-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+
+  /* identical to box height, or 187% */
+  letter-spacing: 0.03em;
+}
