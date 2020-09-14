@@ -10,6 +10,7 @@
   --secondary-font: 'Raleway', sans-serif;
   --mine-text-color: #757575;
   --title-text-color: #212121;
+  --secondary-text-color: #ffffff;
   --accent-color: #2196f3;
   --mine-background: #e5e5e5;
   --secondary-background: #2f303a;
@@ -89,7 +90,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: white;
+  color: var(--secondary-text-color);
 }
 
 /* HERO-Button */
@@ -101,7 +102,7 @@ body {
   line-height: 1.875;
   text-align: center;
   letter-spacing: 0.06em;
-  color: white;
+  color: var(--secondary-text-color);
   background-color: var(--accent-color);
 }
 /* ======== END HERO ======== */
@@ -165,7 +166,7 @@ body {
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
-  color: white;
+  color: var(--secondary-text-color);
 }
 
 .contact-logo-chapter {
@@ -177,7 +178,7 @@ body {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  color: white;
+  color: var(--secondary-text-color);
 }
 
 .contact-list-link {
@@ -200,7 +201,7 @@ body {
   line-height: 1.625;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--secondary-text-color);
   background-color: var(--accent-color);
 }
 
