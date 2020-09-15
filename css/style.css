@@ -12,7 +12,7 @@
   --title-text-color: #212121;
   --secondary-text-color: #ffffff;
   --accent-color: #2196f3;
-  --mine-background: #e5e5e5;
+  --mine-background: #ffffff;
   --secondary-background: #2f303a;
 }
 
@@ -49,13 +49,6 @@ body {
 }
 
 /* HEADER-Navigation */
-.navigation-list-link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.143;
-  letter-spacing: 0.02em;
-  color: var(--title-text-color);
-}
 
 /* HEADER-Adress */
 .adress {
@@ -69,12 +62,23 @@ body {
   color: var(--mine-text-color);
 }
 
+.navigation-list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+
 .adress-list-link:hover,
 .adress-list-link:focus,
 .navigation-list-link:hover,
-.navigation-list-link:focus {
+.navigation-list-link:focus,
+.navigation-list-link:active {
   color: var(--accent-color);
+  cursor: pointer;
 }
+
 /* ======== END HEADER ======== */
 
 /* ======== HERO ======== */
@@ -194,15 +198,22 @@ body {
 /* ======== PORTFOLIO.HTML ======== */
 /* ======== FILTER ======== */
 .filter-btn {
-  font-family: var(--mine-font);
+  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
   text-align: center;
   letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  border: none;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
   color: var(--secondary-text-color);
   background-color: var(--accent-color);
+  cursor: pointer;
 }
 
 /* ======== END FILTER ======== */
